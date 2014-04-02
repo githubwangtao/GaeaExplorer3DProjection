@@ -1,0 +1,33 @@
+D:\武大测绘\GaeaExplorerProjects\Bin32D\GaeaPlayVideo.exe.config
+D:\武大测绘\GaeaExplorerProjects\Bin32D\GaeaPlayVideo.exe
+D:\武大测绘\GaeaExplorerProjects\Bin32D\GaeaPlayVideo.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.exe.config
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.exe
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\bin\x86\Debug\gaeaGeoDatabase.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\bin\x86\Debug\gaeaGeoDatabase.xml
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.csprojResolveAssemblyReference.cache
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.Form1.resources
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.Properties.Resources.resources
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.csproj.GenerateResource.Cache
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.exe
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.Form1.resources
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.Properties.Resources.resources
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.csproj.GenerateResource.Cache
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.exe.config
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.exe
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\bin\x86\Debug\gaeaGeoDatabase.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\bin\x86\Debug\gaeaGeoDatabase.xml
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.exe
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V2.0\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.exe.config
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.exe
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.Form1.resources
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.Properties.Resources.resources
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.csproj.GenerateResource.Cache
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.exe
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\bin\x86\Debug\GaeaPlayVideo.pdb
+D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.1\GaeaPlayVideo\obj\x86\Debug\GaeaPlayVideo.csprojResolveAssemblyReference.cache
