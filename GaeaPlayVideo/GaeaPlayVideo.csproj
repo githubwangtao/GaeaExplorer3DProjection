@@ -178,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buffers.cs" />
+    <Compile Include="ImageMosaic.cs" />
     <Compile Include="DataController.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

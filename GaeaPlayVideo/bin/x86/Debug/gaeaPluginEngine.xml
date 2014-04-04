@@ -1,0 +1,460 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>gaeaPluginEngine</name>
+    </assembly>
+    <members>
+        <member name="T:Gaea.PluginEngine.PluginListView">
+            <summary>
+            The list view in the plugin dialog.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginListView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref= "T:Gaea.PluginEngine.PluginListView"/> class.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginListView.OnDrawItem(System.Windows.Forms.DrawItemEventArgs,Gaea.PluginEngine.PluginListItem)">
+            <summary>
+            Owner drawing listview item.
+            </summary>
+        </member>
+        <member name="T:Gaea.PluginEngine.PluginCompiler">
+            <summary>
+            Loads plug-in scripts, compiles and executes them
+            </summary>
+        </member>
+        <member name="F:Gaea.PluginEngine.PluginCompiler.TestedPluginPath">
+            <summary>
+            插件开发路径或制定的插件文件，即*.cs,*.vb,*.js,*.dll的所在路径
+            以exe 参数传入,格式为：*.exe TestPluginPath:asmPath
+            </summary>
+        </member>
+        <member name="F:Gaea.PluginEngine.PluginCompiler.PluginLoadMessage">
+            <summary>
+            插件编译器通过此接口告诉主程序，插件的加载进度以及其它信息
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.#ctor(System.Windows.Forms.Form,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref= "T:Gaea.PluginEngine.PluginCompiler"/> class.
+            </summary>
+            <param name="Gaea"></param>
+            <param name="pluginDirectory"></param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.AddCodeProvider(System.CodeDom.Compiler.CodeDomProvider)">
+            <summary>
+            Adds a compiler to the list of available codeDomProviders
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.FindPlugins(System.Reflection.Assembly)">
+            <summary>
+            Scan for plugins inside an assembly.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.FindPlugins(System.Reflection.Assembly,System.String)">
+            <summary>
+            Scan for plugins inside an assembly.
+            </summary>
+            <param name="filter">插件过滤字符串</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.FindPlugins(System.String,System.Boolean)">
+            <summary>
+            Build/update the list of available plugins.
+            </summary>
+            <param name="filter">插件过滤字符串</param>
+            <param name="effectTestedPlugin">指示：过滤是否影响测试插件</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.AddPlugin(System.String,System.String)">
+            <summary>
+            Adds plugin from one of the plugins
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.AddKnownPlugin(System.String,System.String)">
+            <summary>
+            Adds a kwown plugin when testing
+            测试时使用制定测试插件
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.LoadStartupPlugins">
+            <summary>
+            Loads the plugins that are set for load on Gaea startup.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.HasCompiler(System.String)">
+            <summary>
+            Determine if a file extension is that of a compilable plugin.
+            </summary>
+            <param name="fullPath">File extension to check.</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.IsPreCompiled(System.String)">
+            <summary>
+            Determine if a file extension is that of a pre-compiled plugin.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.Load(Gaea.PluginEngine.PluginInfo)">
+            <summary>
+            Load a plugin
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.Unload(Gaea.PluginEngine.PluginInfo)">
+            <summary>
+            Unload a plugin if it's loaded.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.Uninstall(Gaea.PluginEngine.PluginInfo)">
+            <summary>
+            Uninstall/delete a plugin.
+            </summary>
+            <param name="pi"></param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.Dispose">
+            <summary>
+            Shut down plugins
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.Compile(Gaea.PluginEngine.PluginInfo,System.CodeDom.Compiler.CodeDomProvider)">
+            <summary>
+            Compiles a file to an assembly using specified compiler.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.AddCompilerReference(System.String,System.String)">
+            <summary>
+            Adds reference to a local assembly or an assembly in the global cache.
+            </summary>
+            <param name="pluginDirectory">Local directory to search.</param>
+            <param name="assemblyName">Partial name of the assembly.</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginCompiler.GetPluginInterface(System.Reflection.Assembly)">
+            <summary>
+            Looks for class derived from Plugin and returns an instance of this class.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginCompiler.Plugins">
+            <summary>
+            The list of discovered plugins.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginCompiler.PluginsLoadedOnStartup">
+            <summary>
+            在主程序启动时加载的插件列表
+            </summary>
+        </member>
+        <member name="T:Gaea.PluginEngine.PluginDialog">
+            <summary>
+            Plugin manager dialog.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.#ctor(Gaea.PluginEngine.PluginCompiler)">
+            <summary>
+            Initializes a new instance of the <see cref= "T:Gaea.PluginEngine.PluginDialog"/> class.
+            </summary>
+            <param name="compiler"></param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.AddPluginList">
+            <summary>
+            Fill the list view with currently installed plugins.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.buttonUnload_Click(System.Object,System.EventArgs)">
+            <summary>
+            Unload selected plugins.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.buttonLoad_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load selected plugins.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.PluginLoad(Gaea.PluginEngine.PluginListItem)">
+            <summary>
+            Load plugin and display message on failure.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.PluginUnload(Gaea.PluginEngine.PluginListItem)">
+            <summary>
+            Unload plugin and display message on failure.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.UpdateUIStates">
+            <summary>
+            Updates enabled states of controls to reflect selection.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.buttonUninstall_Click(System.Object,System.EventArgs)">
+            <summary>
+            Uninstall/remove plugins
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginDialog.listView_DoubleClick(System.Object,System.EventArgs)">
+            <summary>
+            Invert state of double clicked item (load/unload)
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginDialog.ImageList">
+            <summary>
+            On/Off images for items.
+            </summary>
+        </member>
+        <member name="T:Gaea.PluginEngine.Plugin">
+            <summary>
+            Base class to be derived by all plugins (loaded by PluginCompiler)
+            Keep as light-weight as possible to keep plugin simple to write.
+            </summary>
+        </member>
+        <member name="F:Gaea.PluginEngine.Plugin._Application">
+            <summary>
+            Handle to the Gaea Application object
+            </summary>
+        </member>
+        <member name="F:Gaea.PluginEngine.Plugin._PluginDirectory">
+            <summary>
+            The directory from which this plugin was loaded.
+            </summary>
+        </member>
+        <member name="F:Gaea.PluginEngine.Plugin._IsLoaded">
+            <summary>
+            Plugin running flag (true while running, reset when exiting plugin)
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.Plugin.Load">
+            <summary>
+            Load the plugin.  This is the plugin entry point.
+            </summary>
+            <param name="parent">The Gaea Application.</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.Plugin.Unload">
+            <summary>
+            Unload the plugin. Plugins that modify Gaea or 
+            runs in background should override this method.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.Plugin.PluginLoad(System.Windows.Forms.Form,System.String)">
+            <summary>
+            Base class load, calls Load. 
+            </summary>
+            <param name="parent"></param>
+        </member>
+        <member name="M:Gaea.PluginEngine.Plugin.PluginUnload">
+            <summary>
+            Base class unload, calls Unload. 
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.ParentApplication">
+            <summary>
+            Reference to the Gaea main application object.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.PluginDirectory">
+            <summary>
+            The location this plugin was loaded from.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.IsLoaded">
+            <summary>
+            Whether the plugin is currently running.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.Name">
+            <summary>
+            the name of your plugin that you want rather than 
+            your class name
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.Developer">
+            <summary>
+            the author name
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.WebSite">
+            <summary>
+            the home page of the author
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.Description">
+            <summary>
+            the Description of the plugin
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.Plugin.References">
+            <summary>
+            Importent:Assemble references needed in your plugin
+            format:System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;
+            </summary>
+        </member>
+        <member name="T:Gaea.PluginEngine.PluginListItem">
+            <summary>
+            Listview item in the plugin dialog.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginListItem.#ctor(Gaea.PluginEngine.PluginInfo)">
+            <summary>
+            Initializes a new instance of the <see cref= "T:Gaea.PluginEngine.PluginListItem"/> class.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginListItem.PluginInfo">
+            <summary>
+            Plugin information container.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginListItem.Name">
+            <summary>
+            Plugin name.
+            </summary>
+        </member>
+        <member name="T:Gaea.PluginEngine.PluginInfo">
+            <summary>
+            Stores information on a plugin.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInfo.ReadMetaData">
+            <summary>
+            Reads strings from the source file header tags
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInfo.FindTagInLine(System.String,System.String,System.String@)">
+            <summary>
+            Extract tag value from input source line.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.Plugin">
+            <summary>
+            The plugin instance.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.FullPath">
+            <summary>
+            Directory and filename of the plugin.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.ID">
+            <summary>
+            The plugin ID
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.Name">
+            <summary>
+            The plugin name (from plugin comment header "NAME" tag)
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.Description">
+            <summary>
+            The plugin description (from plugin comment header "DESCRIPTION" tag)
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.Developer">
+            <summary>
+            The plugin developer's name (from plugin comment header "DEVELOPER" tag)
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.WebSite">
+            <summary>
+            The plugin web site url (from plugin comment header "WEBSITE" tag)
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.References">
+            <summary>
+            Comma separated list of additional libraries this plugin requires a reference to.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.IsCurrentlyLoaded">
+            <summary>
+            Check whether a plugin is currently loaded.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.PluginsLoadedOnStartup">
+            <summary>
+            设置系统启动时被加载的插件
+            要和插件管理器配合使用该功能，系统
+            的插件加载项必须是引用类型，比如ArrayList
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInfo.IsLoadedAtStartup">
+            <summary>
+            设置该插件是否在启动时被加载
+            要使用该属性，必须设置PluginsLoadedOnStartup属性
+            </summary>
+        </member>
+        <member name="T:Gaea.PluginEngine.PluginInstallDialog">
+            <summary>
+            Ask user for plugin file path/url, then download and install.
+            </summary>
+        </member>
+        <member name="F:Gaea.PluginEngine.PluginInstallDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.#ctor(Gaea.PluginEngine.PluginCompiler)">
+            <summary>
+            Initializes a new instance of the <see cref= "T:Gaea.PluginEngine.PluginInstallDialog"/> class.
+            </summary>
+            <param name="compiler"></param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.buttonInstall_Click(System.Object,System.EventArgs)">
+            <summary>
+            Install plugin
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.InstallFromFile(System.String)">
+            <summary>
+            Install plugin from local file.
+            </summary>
+            <param name="pluginPath">Plugin path/filename.</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.InstallFromUrl(System.Uri)">
+            <summary>
+            Install plugin from web (url).
+            </summary>
+            <param name="pluginUrl">http:// URL</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.GetDestinationPath(System.String)">
+            <summary>
+            Calculates plugin destination directory based on name, and prepares it.
+            </summary>
+            <param name="fileName">Plugin filename only (no path).</param>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.ShowSuccessMessage(System.String)">
+            <summary>
+            Display a message box with successful installation message.
+            </summary>
+        </member>
+        <member name="M:Gaea.PluginEngine.PluginInstallDialog.buttonBrowse_Click(System.Object,System.EventArgs)">
+            <summary>
+            Browse for local file
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInstallDialog.IsFile">
+            <summary>
+            Determine if user points to a file.
+            </summary>
+        </member>
+        <member name="P:Gaea.PluginEngine.PluginInstallDialog.IsWeb">
+            <summary>
+            Determine if user points to a web URL.
+            </summary>
+        </member>
+    </members>
+</doc>

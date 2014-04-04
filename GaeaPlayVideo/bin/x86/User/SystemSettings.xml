@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FormatVersion>1.0.0.0</FormatVersion>
+  <UseWindowsDefaultProxy>true</UseWindowsDefaultProxy>
+  <ProxyUrl />
+  <UseDynamicProxy>false</UseDynamicProxy>
+  <ProxyUsername />
+  <ProxyPassword />
+  <CachePath>D:\武大测绘\GaeaExplorer 2.0\Cache</CachePath>
+  <CacheSizeMegaBytes>10000</CacheSizeMegaBytes>
+  <CacheCleanupInterval>PT1H</CacheCleanupInterval>
+  <TotalRunTime>PT1H51M21.0612578S</TotalRunTime>
+  <PluginsLoadedOnStartup />
+  <GaeaServerSearchURL>http://gaeaserversearch.liesmars.com/</GaeaServerSearchURL>
+  <UseGaeaServerSearch>true</UseGaeaServerSearch>
+  <DefaultWorld>Earth</DefaultWorld>
+  <ConfigurationWizardAtStartup>true</ConfigurationWizardAtStartup>
+  <ConfigPath>D:\武大测绘\GaeaExplorer 2.0\Config</ConfigPath>
+  <DataPath>D:\武大测绘\GaeaExplorer 2.0\Data</DataPath>
+  <PluginsPath>D:\武大测绘\GaeaExplorer 2.0\Plugins</PluginsPath>
+  <RootPath>D:\武大测绘\GaeaExplorer 2.0</RootPath>
+</SystemSettings>

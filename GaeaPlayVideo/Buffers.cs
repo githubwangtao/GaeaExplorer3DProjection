@@ -23,6 +23,10 @@ namespace GaeaPlayVideo
     {
         Texture tex;
         Queue<Texture> VideoQueue = new Queue<Texture>();
+        double minLatitude;//视频buffer的下限纬度坐标
+        double maxlatitude;//视频buffer的上限纬度坐标
+        double minLongitude;//视频buffer的下限经度坐标
+        double maxLongitude;//视频buffer的上限经度坐标
 
         public void write2Buffers(Bitmap pic)
         {

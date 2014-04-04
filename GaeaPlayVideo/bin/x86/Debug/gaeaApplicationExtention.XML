@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>gaeaApplicationExtention</name>
+    </assembly>
+    <members>
+        <member name="M:Gaea.ApplicationExtention.ApplicationExtention.CheckRight(System.Object@)">
+            <summary>
+            检测用户是否有权限使用软件。在这里完成初始化信息的提取工作
+            </summary>
+        </member>
+        <member name="M:Gaea.ApplicationExtention.ApplicationExtention.UseRight(System.Windows.Forms.Form,System.Object)">
+            <summary>
+            执行从CheckRight中获得的权限信息
+            </summary>
+        </member>
+        <member name="M:Gaea.ApplicationExtention.ApplicationExtention.SetUpSplashForm(Gaea.Components.SplashFormBase)">
+            <summary>
+            修改应用程序的启动画面
+            </summary>
+            <param name="splashForm">启动画面窗体容器，开发者可替换此容器为任何System.Windows.Forms.Form的派生类</param>
+            <param name="splashImageContainer">启动画面的图片容器</param>
+        </member>
+        <member name="M:Gaea.ApplicationExtention.ApplicationExtention.GetApplicationTitle">
+            <summary>
+            获取项目的标题信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Gaea.ApplicationExtention.ApplicationExtention.GetPluginList(System.Object)">
+            <summary>
+            用来设置，项目启动时需要装载哪些插件
+            </summary>
+            <returns>
+            null:表示加载所有插件
+            string.empey或"":表示不加载任何插件
+            "插件名称@_@插件名称@_@..."，表示需要加载的插件列表
+            </returns>
+        </member>
+    </members>
+</doc>

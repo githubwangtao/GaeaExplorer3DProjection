@@ -1,0 +1,71 @@
+
+material 131227_rqq/rqq_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+                        cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture 131227_rqq.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material 131227_rqq/rqq_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+                        cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture 131227_rqq.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material 131227_rqq/rqq_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+                        cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture 131227_rqq.png
+			}
+		}
+
+	}
+
+}
+
+

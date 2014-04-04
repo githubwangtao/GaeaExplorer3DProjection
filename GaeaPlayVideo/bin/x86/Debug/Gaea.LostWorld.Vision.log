@@ -1,0 +1,257 @@
+[05:42:25] *********GLV 3D Engine Log *************
+Copyright 
+Version: 1.0.0.0
+Operating System: Microsoft Windows NT 6.1.7601 Service Pack 1
+.Net Framework: 4.0.30319.18063
+
+[05:42:25] *-*-* GLV Intializing
+[05:42:25] Creating resource group General
+[05:42:25] Creating resource group Internal
+[05:42:25] Creating resource group Bootstrap
+[05:42:25] Creating resource group AutoDetect
+[05:42:25] Creating resource group LocalPath
+[05:42:25] SceneManagerFactory for type 'DefaultSceneManager' registered
+[05:42:25] Registering ScriptLoader for patterns *.program *.material 
+[05:42:25] Registering ResourceManager for type Material
+[05:42:25] Registering ResourceManager for type Mesh
+[05:42:25] Registering ResourceManager for type Skeleton
+[05:42:25] Registering ScriptLoader for patterns *.particle 
+[05:42:25] Win32 Platform Manager Loaded.
+[05:42:25] Registering ScriptLoader for patterns *.fontdef 
+[05:42:25] Registering ResourceManager for type Font
+[05:42:25] Registering ScriptLoader for patterns *.overlay 
+[05:42:25] OverlayElementFactory for type 'BorderPanel' registered.
+[05:42:25] OverlayElementFactory for type 'TextArea' registered.
+[05:42:25] OverlayElementFactory for type 'Panel' registered.
+[05:42:25] ArchiveFactory for archive type ZipFile registered.
+[05:42:25] ArchiveFactory for archive type Folder registered.
+[05:42:25] Registering ResourceManager for type HighLevelGpuProgram
+[05:42:25] Registering ScriptLoader for patterns *.compositor 
+[05:42:25] Registering ResourceManager for type Compositor
+[05:42:25] 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeModule.GetTypes()
+   在 System.Reflection.Assembly.GetTypes()
+   在 Gaea.LostWorld.Vision.DynamicLoader.Find(Type baseType)
+[05:42:25] Loader Exceptions:
+[05:42:25] 未能加载文件或程序集“DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a”或它的某一个依赖项。系统找不到指定的文件。
+
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.EditorDevToolPlugin
+[05:42:26] 无法创建抽象类。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.DockedControlEditorPlugin
+[05:42:26] 无法创建抽象类。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.SceneTree
+[05:42:26] 无法将类型为“Gaea.LostWorld.Cube.UI.DevTools.SceneTree”的对象强制转换为类型“Gaea.LostWorld.Vision.IPlugin”。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.StatusBars
+[05:42:26] 无法将类型为“Gaea.LostWorld.Cube.UI.DevTools.StatusBars”的对象强制转换为类型“Gaea.LostWorld.Vision.IPlugin”。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.ScriptConsolePlugin
+[05:42:26] 无法将类型为“Gaea.LostWorld.Cube.UI.DevTools.ScriptConsolePlugin”的对象强制转换为类型“Gaea.LostWorld.Vision.IPlugin”。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.PropertyInspector
+[05:42:26] 无法将类型为“Gaea.LostWorld.Cube.UI.DevTools.PropertyInspector”的对象强制转换为类型“Gaea.LostWorld.Vision.IPlugin”。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.TemplateTree
+[05:42:26] 无法将类型为“Gaea.LostWorld.Cube.UI.DevTools.TemplateTree”的对象强制转换为类型“Gaea.LostWorld.Vision.IPlugin”。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.MenuBar
+[05:42:26] 无法将类型为“Gaea.LostWorld.Cube.UI.DevTools.MenuBar”的对象强制转换为类型“Gaea.LostWorld.Vision.IPlugin”。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.OutputWindow
+[05:42:26] 无法将类型为“Gaea.LostWorld.Cube.UI.DevTools.OutputWindow”的对象强制转换为类型“Gaea.LostWorld.Vision.IPlugin”。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Failed to create instance of IPlugin of type IPlugin from assembly Gaea.LostWorld.Cube.UI.DevTools.EditorPlugin
+[05:42:26] 无法创建抽象类。
+[05:42:26] 未将对象引用设置到对象的实例。
+   在 Gaea.LostWorld.Vision.PluginManager.a2lZmfRmJn(ObjectCreator )
+[05:42:26] Loaded plugin: GLV nVidia Cg Plugin
+[05:42:26] Loaded plugin: GLV DevIL Codecs Plugin
+[05:42:26] PCZone Factory Type 'ZoneType_Default' registered
+[05:42:26] PCZone Factory Type 'ZoneType_Terrain' registered
+[05:42:26] PCZone Factory Type 'ZoneType_Octree' registered
+[05:42:26] Loaded plugin: OctreeZone
+[05:42:26] Loaded plugin: Gaea.LostWorld.Plugins.Stereo3D
+[05:42:26] [D3D] : Direct3D9 Rendering Subsystem created.
+[05:42:26] Loaded plugin: GLV DirectX9 Rendering Subsystem
+[05:42:26] SceneManagerFactory for type 'BspSceneManager' registered
+[05:42:26] Loaded plugin: GLV BSP Scene Manager Plugin
+[05:42:26] SceneManagerFactory for type 'OctreeSceneManager' registered
+[05:42:26] SceneManagerFactory for type 'TerrainSceneManager' registered
+[05:42:26] Loaded plugin: GLV Octree SceneManager Plugin
+[05:42:26] SceneManagerFactory for type 'PagingLandscapeSceneManager' registered
+[05:42:26] Loaded plugin: PagingLandscape Plugin
+[05:42:26] SceneManagerFactory for type 'PCZSceneManager' registered
+[05:42:26] Factory PCZLightFactory registered for MovableObjectType 'PCZLight'.
+[05:42:26] Loaded plugin: Gaea.LostWorld.Vision.SceneManagers.PortalConnected
+[05:42:26] Particle Emitter type 'Box' registered.
+[05:42:26] Particle Emitter type 'Point' registered.
+[05:42:26] Particle Emitter type 'Cylinder' registered.
+[05:42:26] Particle Emitter type 'Ellipsoid' registered.
+[05:42:26] Particle Emitter type 'HollowEllipsoid' registered.
+[05:42:26] Particle Emitter type 'Ring' registered.
+[05:42:26] Particle Affector type 'LinearForce' registered.
+[05:42:26] Particle Affector type 'ColourFader' registered.
+[05:42:26] Particle Affector type 'ColourFader2' registered.
+[05:42:26] Particle Affector type 'ColourImage' registered.
+[05:42:26] Particle Affector type 'ColourInterpolator' registered.
+[05:42:26] Particle Affector type 'Scaler' registered.
+[05:42:26] Particle Affector type 'Rotator' registered.
+[05:42:26] Particle Affector type 'DeflectorPlane' registered.
+[05:42:26] Particle Affector type 'DirectionRandomizer' registered.
+[05:42:26] Loaded plugin: - peng wang.
+[05:42:26] SceneManagerFactory for type 'Earth' registered
+[05:42:26] Loaded plugin: Gaea Controls
+[05:42:26] Factory EntityFactory registered for MovableObjectType 'Entity'.
+[05:42:26] Factory LightFactory registered for MovableObjectType 'Light'.
+[05:42:26] Factory BillboardSetFactory registered for MovableObjectType 'BillboardSet'.
+[05:42:26] Factory ManualObjectFactory registered for MovableObjectType 'ManualObject'.
+[05:42:26] Factory BillboardChainFactory registered for MovableObjectType 'BillboardChain'.
+[05:42:26] Factory RibbonTrailFactory registered for MovableObjectType 'RibbonTrail'.
+[05:42:26] Added resource location '..\Media' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\particles' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\Qiqiu' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\Qiqiu\RQQ' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\Qiqiu\RQQ2' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\Scene' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\Scene\car' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\Scene\J20' of type 'Folder' to resource group 'General'
+[05:42:26] Added resource location '..\Media\Scene\room' of type 'Folder' to resource group 'General'
+[05:42:26] CPU Identifier & Features
+[05:42:26] -------------------------
+[05:42:26] CPU Identification not available
+[05:42:26]  *     SSE1: False
+[05:42:26]  *     SSE2: False
+[05:42:26]  *     SSE3: False
+[05:42:26]  *    SSSE3: False
+[05:42:26]  *    SSSE3: False
+[05:42:26]  *    SSSE3: False
+[05:42:26]  *    SSSE3: False
+[05:42:26] -------------------------
+[05:42:26] [D3D9] : Subsystem Initializing
+[05:42:26] ***************************************
+[05:42:26] *** D3D9 : Subsystem Initialized OK ***
+[05:42:26] ***************************************
+[05:42:26] D3D9RenderSystem::createRenderWindow "RenderWindow", 872x460 windowed miscParams: title = RenderWindow; colorDepth = 32; depthBuffer = True; FSAA = 4; FSAAQuality = 0; lockableBackBuffer = False; vsync = False; swapEffect = 1; useNVPerfHUD = false; externalWindow = Gaea.Controls.WorldControl; 
+[05:42:26] D3D9 : Created D3D9 Rendering Window 'RenderWindow' : 872x460, 32bpp
+[05:42:26] D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+[05:42:26] ---RenderSystem capabilities---
+[05:42:26] 	-Adapter Name: 
+[05:42:26] 	-Driver Version: 
+[05:42:26] 	-Available texture units: 8
+[05:42:26] 	-Maximum lights available: 10
+[05:42:26] 	-Hardware generation of mip-maps: yes
+[05:42:26] 	-Texture blending: yes
+[05:42:26] 	-Anisotropic texture filtering: yes
+[05:42:26] 	-Dot product texture operation: yes
+[05:42:26] 	-Cube Mapping: yes
+[05:42:26] 	-Hardware stencil buffer: yes
+[05:42:26] 		-Stencil depth: 8 bits
+[05:42:26] 		-Two sided stencil support: yes
+[05:42:26] 		-Wrap stencil values: yes
+[05:42:26] 	-Hardware vertex/index buffers: yes
+[05:42:26] 	-Vertex programs: yes
+[05:42:26] 		-Max vertex program version: vs_3_0
+[05:42:26] 	-Fragment programs: yes
+[05:42:26] 		-Max fragment program version: ps_3_0
+[05:42:26] 	-Texture compression: yes
+[05:42:26] 		-DXT: yes
+[05:42:26] 		-VTC: no
+[05:42:26] 	-Scissor rectangle: yes
+[05:42:26] 	-Hardware Occlusion Query: yes
+[05:42:26] 	-User clip planes: yes
+[05:42:26] 	-VertexElementType.UBYTE4: yes
+[05:42:26] 	-Infinite far plane projection: yes
+[05:42:26] 	-Max Point Size: 0 
+[05:42:26] 	-Vertex texture fetch: no 
+[05:42:26] Particle Renderer type 'billboard' registered.
+[05:42:26] Initializing all resource groups:
+[05:42:26] Initializing resource group AutoDetect.
+[05:42:26] Parsing scripts for resource group AutoDetect
+[05:42:26] Finished parsing scripts for resource group AutoDetect
+[05:42:26] 	AutoDetect initialized.
+[05:42:26] Initializing resource group Bootstrap.
+[05:42:26] Parsing scripts for resource group Bootstrap
+[05:42:26] Finished parsing scripts for resource group Bootstrap
+[05:42:26] 	Bootstrap initialized.
+[05:42:26] Initializing resource group General.
+[05:42:26] Parsing scripts for resource group General
+[05:42:26] Parsing script D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\new.material
+[05:42:26] Error in material Particles/FlarePointSprite at line 30  of D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\new.material: Unrecognized command: point_sprites
+[05:42:26] Error in material Particles/FlarePointSprite at line 31  of D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\new.material: Unrecognized command: point_size
+[05:42:26] Parsing script D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\Qiqiu\RQQ\rqq1.material
+[05:42:26] Parsing script D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\Qiqiu\RQQ2\RQQ2.material
+[05:42:26] Parsing script D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\Scene\car\CAR.material
+[05:42:26] Parsing script D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\Scene\J20\J20.material
+[05:42:26] Parsing script D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\Scene\room\room_2.material
+[05:42:26] Parsing script D:\武大测绘\GaeaExplorerProjects\GaeaPlayVideo - V1.2\GaeaPlayVideo\bin\x86\Media\new.particle
+[05:42:26] Finished parsing scripts for resource group General
+[05:42:26] 	General initialized.
+[05:42:26] Initializing resource group Internal.
+[05:42:26] Parsing scripts for resource group Internal
+[05:42:26] Finished parsing scripts for resource group Internal
+[05:42:26] 	Internal initialized.
+[05:42:26] Initializing resource group Bootstrap.
+[05:42:26] 	Bootstrap initialized.
+[05:42:26] Initializing resource group AutoDetect.
+[05:42:26] 	AutoDetect initialized.
+[05:42:26] Initializing resource group LocalPath.
+[05:42:26] Parsing scripts for resource group LocalPath
+[05:42:26] Finished parsing scripts for resource group LocalPath
+[05:42:26] 	LocalPath initialized.
+[05:42:27] Creating viewport rendering from camera 'MainCamera', relative dimensions L:0,T:0,W:1,H:1, Z-Order:100
+[05:42:27] Viewport for camera 'MainCamera' - actual dimensions L:0,T:0,W:872,H:460, AR:1.895652
+[05:42:30] [D3D] : ZBuffer was disposed, reinitializing.
+[05:42:32] !!! Direct3D Device Lost!
+[05:42:32] Viewport for camera 'MainCamera' - actual dimensions L:0,T:0,W:1440,H:838, AR:1.718377
+[05:42:32] HardwareBufferManager: No unused temporary vertex buffers found.
+[05:42:32] D3DTextureManager released: 
+	0 unmanaged textures.
+[05:42:32] D3DHardwareBufferManager released:
+[05:42:32] 	0 unmanaged vertex buffers.
+[05:42:32] 	0 unmanaged index buffers.
+[05:42:32] D3DTextureManager recreated: 
+	0 unmanaged textures.
+[05:42:32] D3DHardwareBufferManager recreated:
+[05:42:32] 	0 unmanaged vertex buffers.
+[05:42:32] 	0 unmanaged index buffers.
+[05:42:32] !!! Direct3D Device successfully restored.
+[05:43:02] *-*-* GLV Shutdown Initiated.
+[05:43:02] Unloading plugin: Gaea Controls
+[05:43:02] Unloading plugin: - peng wang.
+[05:43:02] Unloading plugin: Gaea.LostWorld.Vision.SceneManagers.PortalConnected
+[05:43:02] Unloading plugin: PagingLandscape Plugin
+[05:43:02] Unloading plugin: GLV Octree SceneManager Plugin
+[05:43:02] Unloading plugin: GLV BSP Scene Manager Plugin
+[05:43:02] Unloading plugin: GLV DirectX9 Rendering Subsystem
+[05:43:02] Final Stats [RenderWindow]: FPS <A,B,W> : 57.28 60.88 .00
+[05:43:02] [D3D9] : GLV DirectX9 Rendering Subsystem shutdown.
+[05:43:02] Unloading plugin: Gaea.LostWorld.Plugins.Stereo3D
+[05:43:02] Unloading plugin: OctreeZone
+[05:43:02] PCZone Factory Type 'ZoneType_Octree' unregistered
+[05:43:02] PCZone Factory Type 'ZoneType_Terrain' unregistered
+[05:43:02] Unloading plugin: GLV DevIL Codecs Plugin
+[05:43:02] Unloading plugin: GLV nVidia Cg Plugin
+[05:43:02] Unregistering ScriptLoader for patterns *.compositor 
+[05:43:02] Unregistering ResourceManager for type Compositor
+[05:43:02] Unregistering ScriptLoader for patterns *.overlay 
+[05:43:02] Unregistering ResourceManager for type Font
+[05:43:02] Unregistering ScriptLoader for patterns *.fontdef 
+[05:43:02] Unregistering ResourceManager for type Skeleton
+[05:43:02] Unregistering ResourceManager for type Mesh
+[05:43:02] Unregistering ResourceManager for type Material
+[05:43:02] Unregistering ScriptLoader for patterns *.program *.material 
+[05:43:02] Unregistering ResourceManager for type HighLevelGpuProgram
+[05:43:02] Win32 Platform Manager Shutdown.
+[05:43:02] *-*-* GLV Shutdown Complete.

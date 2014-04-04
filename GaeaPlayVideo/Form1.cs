@@ -52,15 +52,17 @@ namespace GaeaPlayVideo
             points[4] = new PointF(38.15F, 112.20F);
             System.Drawing.Color col = System.Drawing.Color.Blue;
             DrawLines(points, col);
-            this._WorldControl.GotoLatLonAltitude(37.50, 112.30, 300000);//定位视角感测点
+            this._WorldControl.GotoLatLonAltitude(37.50, 112.30, 300000);//定位视角观测点
 
             //测试绘制点screenicon，调用DrawPointLabel()函数
             point = new PointF(38, 112);
             string iconPath = Gaea.WorldManager.SystemSettings.DataPath
              + @"\icon\TYplace.png";
             DrawPointLabel(point, iconPath);
-            this._WorldControl.GotoLatLonAltitude(38, 112, 300000);
-
+            this._WorldControl.GotoLatLonAltitude(38, 112, 300000);//定位视角观测点
+         
+            
+            MergeBitmap();//测试合并图像
             //PlayVideo();//播放视频
         }
         void InitWorldControl()//初始化地理球
@@ -99,14 +101,36 @@ namespace GaeaPlayVideo
             MessageBox.Show("相关属性");
         }
 
+        void MergeBitmap()//拼接图像
+        {
+            ImageMosaic imager = new ImageMosaic();
+            Bitmap bit1 = new Bitmap(@"D:\武大测绘\GaeaExplorerProjects\images\0.jpg");
+            Bitmap bit2 = new Bitmap(@"D:\武大测绘\GaeaExplorerProjects\images\1.jpg");
+            Bitmap dst = imager.BitmapMerge(bit1, bit2, bit1.Width + bit2.Width + 100, bit1.Height, 0, 0, bit1.Width + 100, 0);
+            _newLayer = new SurfaceImageLayer(
+                "image",
+                _WorldControl.CurrentWorld,//
+                (float)200,//图层离地高度
+                //Gaea.WorldManager.SystemSettings.DataPath +
+                @"D:\武大测绘\GaeaExplorerProjects\images\1.jpg", //把一个透明的jpg当做底图
+                orderate1.NWx, orderate1.NWy, orderate1.SEx, orderate1.SEy,
+                0.01f * (100.0f - 0),//透明度
+                _WorldControl.CurrentWorld.TerrainAccessor);
+            _newLayer.Initialize(DrawArgs.Instance);//图层初始化
+            _WorldControl.CurrentWorld.Add(_newLayer);//图层贴到球上
+            Texture tex = ImageHelper.LoadTexture(dst);
+            _newLayer.Texture = tex;
+
+        }
+
         void PlayVideo()//播放视频
         {
             _newLayer = new SurfaceImageLayer(
                 "image",
                 _WorldControl.CurrentWorld,//
                 (float)100,//图层离地高度
-                Gaea.WorldManager.SystemSettings.DataPath 
-                + @"\base\basemap.jpg", //把一个透明的jpg当做底图
+                Gaea.WorldManager.SystemSettings.DataPath
+                + @"D:\武大测绘\GaeaExplorerProjects\images\0.jpg", //把一个透明的jpg当做底图
                 orderate1.NWx, orderate1.NWy, orderate1.SEx, orderate1.SEy,
                 0.01f * (100.0f - 0),//透明度
                 _WorldControl.CurrentWorld.TerrainAccessor);

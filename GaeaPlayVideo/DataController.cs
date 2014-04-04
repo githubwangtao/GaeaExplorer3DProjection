@@ -11,7 +11,7 @@ namespace GaeaPlayVideo
     class DataController
     {
         public bool isExit = false;
-        public Buffers teleBuffers = null;
+        public Buffers teleBuffers = null;//如果建立多个buffer，就需要buffer数组
         public Form1 mainWindow = null;
 
         UdpClient udpClient = new UdpClient(11000);
@@ -56,6 +56,10 @@ namespace GaeaPlayVideo
             while (true)
             {
                 Byte[] receiveBytes = udpClient.Receive(ref RemoteIpEndPoint);
+
+                ///多个buffer时，要接收buffer的经纬度信息，然后再接收buffer的图像帧序列
+                ///如果一路链接占用一个buffer，还要考虑与多个客户端通信时，建立多个通信链接。
+                ///
                 int temp = 0;
                 Bitmap pic = new Bitmap(10, 10);
                 for (int i = 0; i < 10; i++)

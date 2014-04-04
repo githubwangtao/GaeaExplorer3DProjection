@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorldSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FormatVersion>1.0.0.0</FormatVersion>
+  <UseTileSetBaseLevelCountToControlsPyramidLevel>true</UseTileSetBaseLevelCountToControlsPyramidLevel>
+  <menuBarBackgroundColor>-2139062144</menuBarBackgroundColor>
+  <latLonLinesColor>-928997216</latLonLinesColor>
+  <equatorLineColor>-1606360880</equatorLineColor>
+  <tropicLinesColor>-1599020826</tropicLinesColor>
+  <UseSlowAnimationOnStartUp>true</UseSlowAnimationOnStartUp>
+  <_IsTrackBy2D>true</_IsTrackBy2D>
+  <_SceneAmbientLight>-4276546</_SceneAmbientLight>
+  <EnableAtmosphericScattering>true</EnableAtmosphericScattering>
+  <ForceCpuAtmosphere>false</ForceCpuAtmosphere>
+  <ShowCompass>false</ShowCompass>
+  <OutlineText>false</OutlineText>
+  <ShowDownloadIndicator>false</ShowDownloadIndicator>
+  <ShowLayerManager>false</ShowLayerManager>
+  <ShowCrosshairs>false</ShowCrosshairs>
+  <DefaultFontName>新宋体</DefaultFontName>
+  <DefaultFontColor>-1732066622</DefaultFontColor>
+  <DefaultFontSize>8</DefaultFontSize>
+  <DefaultFontStyle>Regular</DefaultFontStyle>
+  <ToolbarFontName>新宋体</ToolbarFontName>
+  <ToolbarFontSize>8</ToolbarFontSize>
+  <ToolbarFontStyle>Regular</ToolbarFontStyle>
+  <LayerManagerFontName>Tahoma</LayerManagerFontName>
+  <LayerManagerFontSize>9</LayerManagerFontSize>
+  <LayerManagerFontStyle>Regular</LayerManagerFontStyle>
+  <LayerManagerWidth>200</LayerManagerWidth>
+  <AntiAliasedText>false</AntiAliasedText>
+  <ThrottleFpsHz>100</ThrottleFpsHz>
+  <VSync>true</VSync>
+  <ModisIconSize>60</ModisIconSize>
+  <ShowFPS>true</ShowFPS>
+  <FpsFrameCount>300</FpsFrameCount>
+  <BrowserVisible>false</BrowserVisible>
+  <BrowserOrientationHorizontal>false</BrowserOrientationHorizontal>
+  <BrowserSize>300</BrowserSize>
+  <UseInternalBrowser>true</UseInternalBrowser>
+  <UseOfflineSearch>false</UseOfflineSearch>
+  <LatLonAsDMSFormatInStatusRect>true</LatLonAsDMSFormatInStatusRect>
+  <ShowLatLonLines>false</ShowLatLonLines>
+  <ShowTropicLines>true</ShowTropicLines>
+  <ShowPlanetAxis>false</ShowPlanetAxis>
+  <ShowClouds>true</ShowClouds>
+  <ShowPlacenames>true</ShowPlacenames>
+  <ShowLogo>true</ShowLogo>
+  <ShowNav>true</ShowNav>
+  <ShowScale>true</ShowScale>
+  <ShowStatusInfo>true</ShowStatusInfo>
+  <ShowBoundaries>false</ShowBoundaries>
+  <ShowUpdateInfo>true</ShowUpdateInfo>
+  <KeepOriginalSvsImages>false</KeepOriginalSvsImages>
+  <MaxPyramidLevelCount>25</MaxPyramidLevelCount>
+  <BackgroundUpdatePause>false</BackgroundUpdatePause>
+  <ForceDownloadWorldConfigWhenStartUp>false</ForceDownloadWorldConfigWhenStartUp>
+  <IsTrackBy2D>true</IsTrackBy2D>
+  <TextureFormatForRefresh>A8R8G8B8</TextureFormatForRefresh>
+  <TilePictureSize>256</TilePictureSize>
+  <TileRealTimeViewGraphicsPictureSize>256</TileRealTimeViewGraphicsPictureSize>
+  <EnableTileRealTimeViewGraphics>true</EnableTileRealTimeViewGraphics>
+  <WorldStandardLevelZeroTileSize>22.5</WorldStandardLevelZeroTileSize>
+  <ElevateCameraLookatPoint>true</ElevateCameraLookatPoint>
+  <CameraResetsAtStartup>false</CameraResetsAtStartup>
+  <CameraLatitude>
+    <Radians>0.654014761861306</Radians>
+    <Degrees>37.472285593906427</Degrees>
+  </CameraLatitude>
+  <CameraLongitude>
+    <Radians>1.9591699976578219</Radians>
+    <Degrees>112.25217221444858</Degrees>
+  </CameraLongitude>
+  <CameraAltitude>432226.68525489233</CameraAltitude>
+  <CameraHeading>
+    <Radians>0.0039081528722165757</Radians>
+    <Degrees>0.22392066526994031</Degrees>
+  </CameraHeading>
+  <CameraTilt>
+    <Radians>0</Radians>
+    <Degrees>0</Degrees>
+  </CameraTilt>
+  <CameraIsPointGoto>false</CameraIsPointGoto>
+  <CameraSmooth>true</CameraSmooth>
+  <CameraHasInertia>false</CameraHasInertia>
+  <CameraHasMomentum>false</CameraHasMomentum>
+  <CameraTwistLock>false</CameraTwistLock>
+  <CameraBankLock>false</CameraBankLock>
+  <CameraSlerpInertia>0.05</CameraSlerpInertia>
+  <CameraSlerpStandard>0.15</CameraSlerpStandard>
+  <CameraSlerpPercentage>0.15</CameraSlerpPercentage>
+  <CameraFov>
+    <Radians>0.78539816339744828</Radians>
+    <Degrees>45</Degrees>
+  </CameraFov>
+  <CameraFovMin>
+    <Radians>0.087266462599716474</Radians>
+    <Degrees>5</Degrees>
+  </CameraFovMin>
+  <CameraFovMax>
+    <Radians>2.6179938779914949</Radians>
+    <Degrees>150.00000000000003</Degrees>
+  </CameraFovMax>
+  <CameraZoomStepFactor>0.015</CameraZoomStepFactor>
+  <CameraZoomAcceleration>10</CameraZoomAcceleration>
+  <CameraZoomAnalogFactor>1</CameraZoomAnalogFactor>
+  <CameraZoomStepKeyboard>0.15</CameraZoomStepKeyboard>
+  <CameraDoubleClickZoomFactor>2</CameraDoubleClickZoomFactor>
+  <CameraRotationSpeed>3.5</CameraRotationSpeed>
+  <TextureFormat>Dxt5</TextureFormat>
+  <ConvertDownloadedImagesToDds>false</ConvertDownloadedImagesToDds>
+  <AlwaysRenderWindow>false</AlwaysRenderWindow>
+  <EnableSunShading>false</EnableSunShading>
+  <SunSynchedWithTime>true</SunSynchedWithTime>
+  <SunElevation>0.78539816339744828</SunElevation>
+  <SunHeading>-0.78539816339744828</SunHeading>
+  <SunDistance>150000000000</SunDistance>
+  <UseBelowNormalPriorityUpdateThread>false</UseBelowNormalPriorityUpdateThread>
+  <MinSamplesPerDegree>3</MinSamplesPerDegree>
+  <UseWorldSurfaceRenderer>true</UseWorldSurfaceRenderer>
+  <VerticalExaggeration>1</VerticalExaggeration>
+  <MeasureLineLinearColorXml>-65536</MeasureLineLinearColorXml>
+  <MeasureLineGroundColorXml>-570360064</MeasureLineGroundColorXml>
+  <MeasureShowGroundTrack>false</MeasureShowGroundTrack>
+  <MeasureMode>Single</MeasureMode>
+  <DisplayUnits>Metric</DisplayUnits>
+  <UseDefaultLayerStates>true</UseDefaultLayerStates>
+  <MaxSimultaneousDownloads>1</MaxSimultaneousDownloads>
+  <LoadedLayers>
+    <anyType xsi:type="xsd:string">Planet</anyType>
+    <anyType xsi:type="xsd:string">Earth</anyType>
+    <anyType xsi:type="xsd:string">Sky</anyType>
+    <anyType xsi:type="xsd:string">SkyGradient</anyType>
+    <anyType xsi:type="xsd:string">Stars3D</anyType>
+    <anyType xsi:type="xsd:string">Earth\影像</anyType>
+    <anyType xsi:type="xsd:string">Earth\影像\全球概图</anyType>
+    <anyType xsi:type="xsd:string">Earth\影像\地表影像</anyType>
+    <anyType xsi:type="xsd:string">Earth\地名</anyType>
+    <anyType xsi:type="xsd:string">Earth\地名\行政区划</anyType>
+    <anyType xsi:type="xsd:string">Earth\地名\行政区划\DMDZHB</anyType>
+    <anyType xsi:type="xsd:string">Earth\SceneTileSet</anyType>
+    <anyType xsi:type="xsd:string">Earth\GlobalClouds</anyType>
+    <anyType xsi:type="xsd:string">Earth\ScreenIconManager</anyType>
+    <anyType xsi:type="xsd:string">Earth\DefaultScene</anyType>
+  </LoadedLayers>
+  <ScenePyramidTileDrawDistance>10</ScenePyramidTileDrawDistance>
+  <ScenePyramidTileDrawSpread>1.5</ScenePyramidTileDrawSpread>
+  <Log404Errors>false</Log404Errors>
+</WorldSettings>
