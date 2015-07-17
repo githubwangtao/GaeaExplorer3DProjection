@@ -204,7 +204,8 @@ namespace GaeaPlayVideo
             peg1.ShowTipAlways = true;
         }
 
-        //地理坐标结构体
+        //地理坐标结构 体
+    ///有构造函数
         internal struct Geocoorderates
         {
             public double NWx;
